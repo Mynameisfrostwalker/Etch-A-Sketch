@@ -1,0 +1,1 @@
+Etch-a-sketch project for the basic Javascript section of The-Odin-project.
