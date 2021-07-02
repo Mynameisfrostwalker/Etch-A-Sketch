@@ -11,3 +11,13 @@ for (let i = 1; i <= numOfSquares; i++) {
     div.classList.add('cell');
     innerBody.appendChild(div);
 }
+
+const sameDiv = document.querySelectorAll("div.cell");
+
+function turnBlack(event) {
+    event.target.style["background-color"] = "black"
+}
+sameDiv.forEach((div) => {
+    div.addEventListener("mouseenter", turnBlack);
+    div.addEventListener("touchstart", turnBlack);
+})

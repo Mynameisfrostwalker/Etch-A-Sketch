@@ -26,12 +26,29 @@ h1 {
 #outerBody {
     width: 55vw;
     height: 40vw;
-    border: 10px solid red;
+    box-shadow: 0px 0px 10px 10px rgba(240, 18, 18, 1);
     min-width: 560px;
     min-height: 560px;
     background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .cell {
     border: 2px solid black;
+}
+
+.buttons,
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-shadow: 0px 0px 2px 2px white inset;
+    width: 100px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    height: 50px;
+    border-radius: 50px;
 }
