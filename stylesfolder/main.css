@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(35deg, #ffa800, #66cf93, #00dbff)
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#innerBody {
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+#outerBody {
+    width: 55vw;
+    height: 40vw;
+    border: 10px solid red;
+    min-width: 560px;
+    min-height: 560px;
+    background-color: white;
+}
+
+.cell {
+    border: 2px solid black;
+}
