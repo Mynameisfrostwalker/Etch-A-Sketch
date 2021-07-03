@@ -52,3 +52,7 @@ input {
     height: 50px;
     border-radius: 50px;
 }
+
+.buttons:hover {
+    background-color: rgba(235, 225, 225, 0.4)
+}
